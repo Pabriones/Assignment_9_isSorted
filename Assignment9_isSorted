@@ -1,0 +1,23 @@
+
+public class Assignment9 {
+
+	public static void main(String[] args) { 
+		//Print True or false if array in is sorted
+		int[] num = {1,2,3,4,5};
+		//print the result of isSorted
+		System.out.println(isSorted(num));
+		
+	}
+	//return true is array int is sorted and false if not
+	public static boolean isSorted(int[] num) {
+		int i;
+		for (i = 0; i < num.length; i++); { 
+		    if (num[i] >= num[i + 1]) {
+		        return true;
+		    }else {
+		        return false;
+		    }
+		}
+	}
+
+}
